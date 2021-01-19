@@ -19,45 +19,13 @@ let updateTimer;
 // Create new audio element
 let curr_track = document.createElement('audio');
 
-
-
-//loading sad songs list
-function loadJSON(callback) {
-
-  var xobj = new XMLHttpRequest();
-  xobj.overrideMimeType("application/json");
-  xobj.open('GET', 'sad.json', true);
-  xobj.onreadystatechange = function () {
-  if (xobj.readyState == 4 && xobj.status == "200") {
-  
-  // .open will NOT return a value but simply returns undefined in async mode so use a callback
-  callback(xobj.responseText);
-  
-  }
-  }
-  xobj.send(null);
-  
-  }
-
-
-
-
-
-tracks=null;
-
-  // Call to function with anonymous callback
-loadJSON(function(response) {
-  
- tracks= response;
-  });
-
 // Define the tracks that have to be played
 let track_list = [
   {
     name: "Night Owl",
     artist: "Broke For Free",
     image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://archive.org/details/Vast_and_Sad-135/Celesteville_-_01_-_Vast_and_Sad_KPSU.mp3"
+    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Tours/Enthusiast/Tours_-_01_-_Enthusiast.mp3"
   },
   {
     name: "Enthusiast",
@@ -81,7 +49,7 @@ function random_bg_color() {
   let blue = Math.floor(Math.random() * 256) + 64;
 
   // Construct a color withe the given values
-  let bgColor = "rgb(" + red + ","+ blue + ")";
+  let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
 
   // Set the background to that color
   document.body.style.background = bgColor;

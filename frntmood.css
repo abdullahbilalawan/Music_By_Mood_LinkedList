@@ -1,0 +1,44 @@
+h1{
+    margin-left: 490px;
+    margin-top: 80px;
+    font-size: 50px;
+    color:white
+}
+a{
+    font-size: 40px;
+        margin-left: 520px;
+        margin-top: 200px;
+        color:darkcyan
+
+    }
+   
+html{
+    background-image: url("b.jpg");
+    background-position:top right;
+    background-size: cover;
+}
+#sad{
+    margin-left: -800px;
+    border-radius: 80%;
+    font-size: 30px;
+    font-weight: bold;
+    size: 150px;
+    background-color:green;
+}
+a #neutral{
+    margin-left: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-left: -300px;
+    font-weight: bold;
+    background-color:blue
+}
+
+a #happy{
+    margin-left: 60px;
+    border-radius: 50%;
+    margin-left: -80px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:firebrick
+}
