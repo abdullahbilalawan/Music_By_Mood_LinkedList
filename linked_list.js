@@ -22,9 +22,9 @@ const moderate_songs = buckets.LinkedList();
 
 //adding a sad song
 const a = new Song('Night Owl','Broke For Free','https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250','https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3');
-const b = new Song('Vast and Sad',' Celesteville; Celesteville','https://ia800703.us.archive.org/15/items/Vast_and_Sad-135/Vast_and_Sad-135.jpg?cnt=0','');
-const c = new Song('Enthusiast','https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Tours/Enthusiast/Tours_-_01_-_Enthusiast.mp3','');
-const d =  new Song('CornerStore','https://prosearch.tribeofnoise.com/artists/show/51430/26560','')
+const b = new Song('Dont Let Your Deal Go Down Blues',' Celesteville','https://ia800703.us.archive.org/15/items/Vast_and_Sad-135/Vast_and_Sad-135.jpg?cnt=0','http://www.openmusicarchive.org/audio/Dont_Let_Your_Deal_Go_Down_Blues.mp3');
+const c = new Song('Deep Blue Sea Blues','Clara Smith','https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250','http://www.openmusicarchive.org/audio/Deep_Blue_Sea_Blues.mp3');
+const d = new Song('Poor Me Blues','Edna Hicks','https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250','http://www.openmusicarchive.org/audio/Poor_Me_Blues.mp3')
 
 sad_songs.add(a,0);
 sad_songs.add(b,1);
